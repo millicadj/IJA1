@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(134, 187, 216);
+}
+
+nav{
+    position: sticky;
+    top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li img{
+    width: 120px;
+    height: 60px;
+    background-position: left top;
+    margin-right: 100px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo{
+    0% {border-radius: 15px;}
+    50% {border-radius: 20px;}
+    100% {border-radius: 15px;}
+}
+
+nav ul li .pocetna{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .pocetna:hover{
+    color: rgb(89, 13, 34)
+}
+
+
+nav ul li .galerija{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .galerija:hover{
+    color: rgb(89, 13, 34)
+}
+
+nav ul li .cene{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .cene:hover{
+    color: rgb(89, 13, 34)
+}
+
+nav ul li .kontakt{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .kontakt:hover{
+    color: rgb(89, 13, 34)
+}
+
+.login{
+    background-color: white;
+    color: rgb(89, 13, 34);
+    margin-left: 800px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(89, 13, 34);
+    font-family: Helvetica, Arial, sans-serif;
+    position: fixed;
+    top: 40px;
+}
+
+.login:hover{
+    background-color: rgb(89, 13, 34);
+    color: #fff;
+    width: 70px;
+    height: 40px;
+    border: 1px dotted white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+div img{
+    width: 50%;
+    height: 30%;
+}
+
+div p{
+    color: rgb(89, 13, 34);
+    font-weight: bold;
+    font-family: Garamond, 'Times New Roman', serif;
+}
+
+div p:hover{
+    color: #fff;
+}
+
+footer{
+    text-align: center;
+    color: rgb(89, 13, 34);
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer .icons{
+    width: 60px;
+    height: 50px;
+}
+
+.icons:hover{
+    width: 70px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    body{
+        background-color: rgb(238, 217, 196);
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .login{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+}

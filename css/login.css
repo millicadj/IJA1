@@ -1,0 +1,48 @@
+h2{
+    font-family: Garamond, 'Times New Roman', serif;
+    color: rgb(51, 101, 138);
+    font-weight: bold;
+}
+
+form input{
+    border: 1px solid black;
+}
+
+.podaci{
+    background-color: rgb(51, 101, 138);
+    color: white;
+}
+
+.podaci:hover{
+    background-color: white;
+    color: rgb(51, 101, 138);
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.podaci1{
+    background-color: rgb(51, 101, 138);
+    color: white;
+}
+
+.podaci1:hover{
+    background-color: white;
+    color: rgb(51, 101, 138);
+}
+
+.destinacija{
+    background-color: lightblue;
+    color: rgb(51, 101, 138);
+}
+
+.podaci2{
+    background-color: rgb(51, 101, 138);
+    color: white;
+}
+
+.podaci2:hover{
+    background-color: white;
+    color: rgb(51, 101, 138);
+}

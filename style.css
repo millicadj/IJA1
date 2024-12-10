@@ -1,0 +1,219 @@
+body{
+    background-color: rgb(134, 187, 216);
+}
+
+nav{
+    position: sticky;
+    top: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li img{
+    width: 120px;
+    height: 60px;
+    background-position: left top;
+    margin-right: 100px;
+    animation-name: logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes logo{
+    0% {border-radius: 15px;}
+    50% {border-radius: 20px;}
+    100% {border-radius: 15px;}
+}
+
+nav ul li .pocetna{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .pocetna:hover{
+    color: rgb(89, 13, 34)
+}
+
+
+nav ul li .galerija{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .galerija:hover{
+    color: rgb(89, 13, 34)
+}
+
+nav ul li .cene{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .cene:hover{
+    color: rgb(89, 13, 34)
+}
+
+nav ul li .kontakt{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 30px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav ul li .kontakt:hover{
+    color: rgb(89, 13, 34)
+}
+
+.login{
+    background-color: white;
+    color: rgb(89, 13, 34);
+    margin-left: 800px;
+    width: 60px;
+    height: 30px;
+    border: 1px solid rgb(89, 13, 34);
+    font-family: Helvetica, Arial, sans-serif;
+    position: fixed;
+    top: 40px;
+}
+
+.login:hover{
+    background-color: rgb(89, 13, 34);
+    color: #fff;
+    width: 70px;
+    height: 40px;
+    border: 1px dotted white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(89, 13, 34);
+    font-family: Garamond, 'Times New Roman', serif;
+    animation-name: naslov;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes naslov {
+    0% {color: rgb(89, 13, 34);}
+    50% {color: blue;}
+    100% {color: rgb(89, 13, 34);}
+}
+
+#naslovna{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 30%;
+}
+
+.tekst{
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.tekst1{
+    text-align: justify;
+    color: rgb(89, 13, 34);
+    width: 90%;
+    padding: 20px 40px 10px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.tekst2{
+    text-align: justify;
+    color: rgb(89, 13, 34);
+    width: 90%;
+    padding: 0px 40px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h3{
+    padding: 60px 40px 10px;
+    font-weight: bold;
+    font-family: Garamond, 'Times New Roman', serif;
+}
+
+div li{
+    font-weight: bold;
+    font-family: Garamond, 'Times New Roman', serif;
+}
+
+footer{
+    text-align: center;
+    color: rgb(89, 13, 34);
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer .icons{
+    width: 60px;
+    height: 50px;
+}
+
+.icons:hover{
+    width: 70px;
+    height: 60px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    body{
+        background-color: rgb(238, 217, 196);
+    }
+
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .login{
+        margin-left: 0px;
+        margin-top: 170px;
+    }
+    
+    h1{
+        color: black;
+    }
+
+    #naslovna{
+        width: 300px;
+        height: 150px;
+    }
+
+    .tekst1{
+        color: darkblue;
+    }
+
+    .tekst2{
+        color: darkblue;
+    }
+
+    h3{
+        color: #fff;
+    }
+
+    footer{
+        color: darkblue;
+    }
+}
